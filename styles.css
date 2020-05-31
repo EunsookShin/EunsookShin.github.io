@@ -1,0 +1,209 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 250%;
+  font-weight: bolder;
+}
+
+h2 {
+  text-align: left;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2vw;
+}
+
+h3 {
+  padding-left: 1%;
+}
+
+p {
+  width: 100%;
+}
+
+#home a {
+  font-size: 20px;
+  color: darkgrey;
+}
+
+#home {
+  background: url("assets/img/home-bg.jpg") repeat scroll right center/cover;
+  height: 80vh;
+  width: 100%;
+}
+
+#title-container {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  width: 50%;
+  min-width: 300px;
+}
+
+#social-media {
+  text-align: left;
+  width: 150px;
+}
+
+#title-container .row {
+  margin-left: 0;
+}
+
+#social-media .col{
+  padding: 0;
+  text-align: center;
+}
+
+nav {
+  box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
+}
+
+.navbar-brand {
+  float: left;
+}
+#nav-icon {
+  width: 5%;
+}
+.nav-item {
+  padding-left: 10%;
+  padding-right: 10%;
+	text-align: center;
+}
+
+.section {
+	width: 100%;
+}
+
+.container-fluid {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2%;
+  padding-top: 10vw;
+  padding-bottom: 10vw;
+}
+
+.row {
+  left: 0;
+	width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+	justify-content: center;
+}
+
+#img-div {
+  text-align: center;
+}
+
+#about, #footer{
+  background-color: #f7f7f7;
+}
+#about-img {
+  width: 50%;
+}
+
+#about-txt {
+	/*padding-top: 10%;*/
+}
+
+#services {
+  background: #f7f7f7;
+  position: relative;
+  padding-bottom: 80px;
+}
+
+.skill-block {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 50%;
+}
+
+.skill-bar {
+  width: 100%;
+  background-color: lightgrey;
+  border-radius: 5px;
+}
+
+.skills {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 5px;
+  color: white;
+  background-color: #609040;
+  border-radius: 5px;
+}
+
+.thumbnail-img {
+  width: 100%;
+}
+
+#footer {
+  text-align: center;
+  color: darkgrey;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#footer #social-media {
+  min-width: 300px;
+  width: 30%;
+}
+
+#footer #social-media .col-3 {
+  color: darkgrey;
+  text-align: center;
+}
+
+#footer a {
+  color: darkgrey;
+  font-size: 3vw;
+}
+
+#portfolio .col {
+  padding: 1%;
+}
+
+@media (min-width: 768px) {
+	.container-fluid {
+		width: 90%;
+	}
+  #hero {
+    height: 100vh;
+  }
+  #about-img {
+    width: 100%;
+  }
+  h1 {
+    font-size: 350%;
+  }
+  #hero a {
+    font-size: 25px;
+  }
+
+  #social-media {
+    max-width: 200px;
+  }
+  #footer #social-media {
+    max-width: 300px;
+  }
+  #footer a {
+    font-size: 30px;
+  }
+}
+@media (min-width: 992px) {
+  h1 {font-size: 400%;}
+	h2 {font-size: 18px;}
+
+	p {font-size: 18px;}
+
+  #title-container {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+  }
+}
