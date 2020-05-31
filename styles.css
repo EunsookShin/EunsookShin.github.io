@@ -32,7 +32,7 @@ p {
 }
 
 #home {
-  background: url("assets/img/home-bg.jpg") repeat scroll right center/cover;
+  background: url("img/home-bg.jpg") repeat scroll right center/cover;
   height: 80vh;
   width: 100%;
 }
