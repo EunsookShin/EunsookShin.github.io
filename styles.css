@@ -33,7 +33,7 @@ p {
 
 #home {
   background: url("img/home-bg.jpg") repeat scroll right center/cover;
-  height: 80vh;
+  height: 70vh;
   width: 100%;
 }
 
@@ -99,7 +99,7 @@ nav {
   text-align: center;
 }
 
-#about, #footer{
+#skills, #footer{
   background-color: #f7f7f7;
 }
 #about-img {
@@ -117,9 +117,6 @@ nav {
 }
 
 .skill-block {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
   width: 50%;
 }
 
@@ -164,7 +161,7 @@ nav {
   font-size: 3vw;
 }
 
-#portfolio .col {
+.portfolio-thumbnail {
   padding: 1%;
 }
 
@@ -172,16 +169,11 @@ nav {
 	.container-fluid {
 		width: 90%;
 	}
-  #hero {
-    height: 100vh;
-  }
-  #about-img {
-    width: 100%;
-  }
+  
   h1 {
     font-size: 350%;
   }
-  #hero a {
+  #home a {
     font-size: 25px;
   }
 
@@ -200,7 +192,12 @@ nav {
 	h2 {font-size: 18px;}
 
 	p {font-size: 18px;}
-
+  #home {
+    height: 100vh;
+  }
+  #about-img {
+    width: 100%;
+  }
   #title-container {
     position: absolute;
     top: 15%;
