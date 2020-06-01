@@ -1,93 +1,274 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta charset="utf-8">
-		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="portfolio details.css">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+	<title>Eunsook (Victoria) Shin</title>
+  <link href="img/favicon.PNG" rel="icon">
 
-		<title>Victoria's Portfolio</title>
-	</head>
-	<body>
-		<div class="header">Projects</div>
-		<div class="container">
-			<div id="budgetbites" class="row"><br><br>
-				<h1>BudgetBites</h1>
-				<h2>USC Viterbi Technology Innovation and Entrepreneurship</h2><br><br>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
 
-				<div class="video"><iframe src="https://www.youtube.com/embed/VZQyRBNaD8M"></iframe></div><br><br>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link href="styles.css" rel="stylesheet">
 
-				<p>On a national level, we are tossing out food that is worth over $218 Billion due to food waste, yet millions of people are still going to bed hungry. Is there a better way to distribute food supply?<br><br>
+</head>
+<body>
+<!-- Home Section -->
+  <div id="home" class="home">
 
-				Sharing a common interest in food waste and sustainability, I have worked with two other CS students in developing a startup idea to develop a mobile app platform that would facilitate the distribution of surplus food from restaurants to those in need, saving both the environment and money.<br><br>
+    <div id="title-container">
+        <div class="row">
+          <h2><em>hey, I'm</em></h2><h1>Victoria Shin</h1><br>
+        </div>
+        <div id="title-desc" class="row">
+          <p>Student, Developer, Designer</p>
+        </div>
 
-				My team and I participated in <a href="https://viterbiinnovation.usc.edu/mfc/">Min Family Challenge</a> and <a href="https://viterbiinnovation.usc.edu/abc/">ABC Innovation</a> Competitions at USC, where we closely worked with professional entrepreneurs and experienced mentors who would provide us with resources and advice on customer discovery and business models. With the help of these people and my diligent teammates, we were able to win $1000 for funding from ABC challenge, which we plan to use to further develop our application.<br><br>
+        <div id="social-media" class="row">
+          <div class="col"><a href="https://www.facebook.com/victoria.shin.585"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></div>
+          <div class="col"><a href="https://www.instagram.com/v._.v_shin/"><i class="fa fa-instagram" aria-hidden="true"></i></a></div>
+          <div class="col"><a href="https://www.linkedin.com/in/eunsook-victoria-shin-0314"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></div>
+          <div class="col"><a href="https://github.com/EunsookShin"><i class="fa fa-github" aria-hidden="true"></i></a></div>
+        </div>
+      </div>
+    </div>
+  </div><!-- End home -->
 
-				Extending our passion in developing technology to meet pressing societal needs, my team and I hope to develop a community where both sustainability and food security are encouraged.</p><br><br>
+<!-- Nav Section -->
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Eunsook (Victoria) Shin</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-				<p class="skills"><strong class="skills-learned">Skills learned: </strong> Conducting customer discovery, Developing business models, Storytelling, Entrepreneurial thinking</p><br><br>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" href="#home">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#portfolio">Portfolio</a>
+      </li>
+    </ul>
+  </div>
+</nav><!-- End Nav -->
 
-				<p><a href="img/portfolio/BudgetBites Pitch Deck_MFC Final.pdf">BudgetBites Pitch Deck.pdf</a></p><br>
-				<p class="updated">Updated May 2020</p><br><br><br><br>
+<!-- About Section -->
+<div id="about" class="section">
+	<div class="container-fluid">
+		<div class="row">
+			<div id="img-div" class="col-sm-12 col-md-12 col-lg-4">
+          <img id="about-img" src="img/me.JPG" alt="me"> </div>
+      <div class="col-sm-12 col-md-12 col-lg-1">
+        <br><br>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-7">
+      	<p id="about-txt">
+          <strong>Education:</strong><br>
+          University of Southern California (Expected in May 2022)<br>
+          <li>B.S. in Computer Science</li>
+          <li>Presidential Scholar | W.V.T. Rusch Engineering Honors</li>
+          <li><em>Relevant Coursework:</em> Data Structure and Object-Oriented Design, Discrete Methods in Computer Science, Principles of Software Development, Full-Stack Web Development, Intro to Embedded Systems, Intro to Algorithms and Theory of Computing, Intro to Computer Systems</li><br>
+          Sunny Hills High School (May 2018)
+          <li>Valedictorian</li>
+        </p>
+      </div>
+    </div>
+  </div>
+</div><!-- End About Section -->
 
-			</div>
-			<hr><br>
-			<div id="moodsic" class="row"><br><br>
-				<h1>MoodSic</h1>
-				<h2>HackSC 2020</h2><br><br>
+<!-- Skills Section -->
+<div id="skills" class="section">
+  <div class="container-fluid">
+    <h3>Technical Skills</h3><br>
+      <div class="row" style="justify-content: left;">
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <span>C++</span>
+          <div class="skill-bar">
+            <div class="skills" style="width: 80%;"></div>
+          </div>
+        </div><br><br><br>
 
-				<div class="image"><img src="img/portfolio/HackSC.JPG"></div><br><br>
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <span>C</span>
+          <div class="skill-bar">
+            <div class="skills" style="width: 70%;"></div>
+          </div>
+        </div><br><br><br>
 
-				<p>The inspiration for this project came from algorithms on music streaming platforms. Spotify and Apple Music both utilize algorithms that recommend playlists that have a certain mood or emotion associated with the songs, and we wanted to mimic this algorithm without a person to individually tag all the songs.<br><br>
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <span>Java</span>
+          <div class="skill-bar">
+            <div class="skills" style="width: 80%;"></div>
+          </div>
+        </div><br><br><br>
 
-				The algorithm uses a spectrogram to analyze the frequency and amplitude of audio input and output a categorization of the song as one of three moods: happy, sad, and calm.We used spectrogram.py library to convert audio wav files to spectrogram images. Then, we passed in a dataset of 100 songs labeled as either happy, calm, or sad. Using Google Cloud AutoML, the trained model predicts the mood of new song input based on a comparison between its spectrogram image and the training dataset.</p><br><br>
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <span>Python</span>
+          <div class="skill-bar">
+            <div class="skills" style="width: 50%;"></div>
+          </div>
+        </div><br><br><br>
 
-				<p class="skills"><strong class="skills-learned">Skills learned: </strong> Python, JavaScript, HTML and AutoML GCP</p><br><br>
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <span>MATLAB</span>
+          <div class="skill-bar">
+            <div class="skills" style="width: 70%;"></div>
+          </div>
+        </div><br><br><br>
 
-				<p><a href="https://eldeni.github.io/moodsic/?fbclid=IwAR3a0UNXxmdEft7Lt5h82qQsb8VPdqPGqY4u0mAAblj_bWY_-q2V7WgmWXE">Demo Website</a></p>
-				<p><a href="https://github.com/eldeni/moodsic"><i class="fab fa-github"> GitHub Repo</i></a></p><br>
-				<p class="updated">Updated May 2020</p><br><br><br><br>
-			</div>
-			<hr><br>
-			<div id="mealplanner" class="row"><br><br>
-				<h1>Smart Meal Planner</h1>
-				<h2>ITP 303: Full Stack Web Development</h2><br><br>
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <span>HTML/CSS</span>
+          <div class="skill-bar">
+            <div class="skills" style="width: 80%;"></div>
+          </div>
+        </div><br><br><br>
 
-				<div class="image"><img src="img/portfolio/meal planner.JPG"></div><br><br>
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <span>JavaScript</span>
+          <div class="skill-bar">
+            <div class="skills" style="width: 80%;"></div>
+          </div>
+        </div><br><br><br>
 
-				<p>College students often find it difficult to plan meals in between their busy schedules. In the beginning of the semester, when I was overloaded with course work, career events, and research lab, I often skipped breakfast and lunch, finally managing to eat my first meal at 9pm. I wanted to solve such a problem by developing a scheduler that will keep track of my meals each week. Basically, my project allows logged in users to add a menu to their calendars. Additionally, users can view/edit/delete menu items from the calendar.</p><br><br>
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <span>jQuery/AJAX</span>
+          <div class="skill-bar">
+            <div class="skills" style="width: 70%;"></div>
+          </div>
+        </div><br><br><br>
 
-				<p class="skills"><strong class="skills-learned">Skills learned: </strong> HTML, CSS, JavaScript, PHP</p><br><br>
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <span>MySQL/PHP</span>
+          <div class="skill-bar">
+            <div class="skills" style="width: 70%;"></div>
+          </div>
+        </div><br><br><br>
 
-				<p><a href="http://303.itpwebdev.com/~eunsooks/final_project/home.php">Demo Website</a></p>
-				<p><a href="img/portfolio/ITP 303_Final Project Summary.pdf">Documentation</a></p>
-				<p><a href="https://github.com/eldeni/moodsic"><i class="fab fa-github"> GitHub Repo</i></a></p><br>
-				<p class="updated">Updated May 2020</p><br><br><br><br>
-			</div>
-			<hr><br>
-			<div id="menualert" class="row"><br><br>
-				<h1>Dining Hall Menu Alert</h1>
-				<h2>USC AthenaHacks 2019</h2><br><br>
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <span>Git</span>
+          <div class="skill-bar">
+            <div class="skills" style="width: 70%;"></div>
+          </div>
+        </div><br><br><br>
 
-				<div class="image"><img src="img/portfolio/AthenaHacks.JPG"></div><br><br>
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <span>LabView</span>
+          <div class="skill-bar">
+            <div class="skills" style="width: 80%;"></div>
+          </div>
+        </div><br><br><br>
 
-				<p>We have a limited number of dining swipes per semester, and we wanted to eat at the dining halls only when the menu had food that we wanted to eat, so that we wouldn't be wasting our dining swipes on food we don't even want to eat. Because we are busy college students and looking up the menu and checking if it had our favorite foods is a waste of time, so we decided to create a program that alerted us whenever the dining halls had food we like on the menu.<br><br>
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <span>Arduino</span>
+          <div class="skill-bar">
+            <div class="skills" style="width: 85%;"></div>
+          </div>
+        </div><br><br><br>
 
-				The Dining Hall Alert notifies students via email whenever the dining hall has one of their favorite foods on the menu for that day.<br><br>
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <span>VEX Robotics</span>
+          <div class="skill-bar">
+            <div class="skills" style="width: 80%;"></div>
+          </div>
+        </div><br><br><br>
 
-				We created a user interface using tkinter from Python, and this user interface allows students to enter their favorite foods as well as their email to alert whenever the dining hall served those foods. We used the BeautifulSoup Python package to parse through the online menu for the dining halls and check whether or not the menu had the student's favorite food for the day. Then, we created a web server that allowed emails to be sent to the student whenever the menu included one of the student's favorite foods.</p><br><br>
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <span>Soldering/Circuitry</span>
+          <div class="skill-bar">
+            <div class="skills" style="width: 70%;"></div>
+          </div>
+        </div><br><br><br>
 
-				<p class="skills"><strong class="skills-learned">Skills learned: </strong> HTML, CSS, JavaScript, Python, Web Scraping, Tkinter, Beautiful-Soup Library</p><br><br>
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <span>Autodesk Inventor 3D Modeling</span>
+          <div class="skill-bar">
+            <div class="skills" style="width: 85%;"></div>
+          </div>
+        </div><br><br><br>
 
-				<p><a href="https://github.com/aprrrrr/USCfood"><i class="fab fa-github"> GitHub Repo</i></a></p><br>
-				<p class="updated">Updated May 2020</p><br><br><br><br>
-			</div>
-			<hr><br>
-			<div>
-				<p id="footer">© 2020 Eunsook (Victoria) Shin</p>
-			</div>
-		</div>
-		<script src="https://kit.fontawesome.com/5826f004d7.js" crossorigin="anonymous"></script>
-	</body>
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <span>Autodesk Maya 3D Animation</span>
+          <div class="skill-bar">
+            <div class="skills" style="width: 70%;"></div>
+          </div>
+        </div><br><br><br>
+        
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <span>Spark AR/Lens Studio</span>
+          <div class="skill-bar">
+            <div class="skills" style="width: 50%;"></div>
+          </div>
+        </div><br><br><br>
+    </div> 
+	</div>
+</div><!-- End Skills Section -->
+
+
+<!-- Portfolio Section -->
+<div id="portfolio" class="section">
+  <div class="container-fluid">
+    <h3>My Portfolio</h3><br>
+    <div class="row">
+      <div class="col-md-6 col-lg-4 portfolio-thumbnail all projects">
+        <a class="popup-img" href="portfolio details.html#budgetbites">
+          <img class="thumbnail-img" src="img/portfolio/BudgetBites.PNG" alt="img">
+        </a>
+      </div>
+
+      <div class="col-md-6 col-lg-4 portfolio-thumbnail all projects">
+        <a class="popup-img" href="portfolio details.html#moodsic">
+          <img class="thumbnail-img" src="img/portfolio/Moodsic.PNG" alt="img">
+        </a>
+      </div>
+
+      <div class="col-md-6 col-lg-4 portfolio-thumbnail all projects">
+        <a class="popup-img" href="portfolio details.html#mealplanner">
+          <img class="thumbnail-img" src="img/portfolio/Meal Planner.PNG" alt="img">
+        </a>
+      </div>
+      <div class="col-md-6 col-lg-4 portfolio-thumbnail all projects">
+        <a class="popup-img" href="portfolio details.html#menualert">
+          <img class="thumbnail-img" src="img/portfolio/Menu Alert.PNG" alt="img">
+        </a>
+      </div>
+
+      <div class="col-md-6 col-lg-4 portfolio-thumbnail all projects">
+        <a class="popup-img" href="img/portfolio/Natcar.PNG">
+          <img class="thumbnail-img" src="img/portfolio/Natcar.PNG" alt="img">
+        </a>
+      </div>
+
+      <div class="col-md-6 col-lg-4 portfolio-thumbnail all research">
+        <a class="popup-img" href="img/portfolio/KIST.PNG">
+          <img class="thumbnail-img" src="img/portfolio/KIST.PNG" alt="img">
+        </a>
+      </div>
+    </div>
+  </div>
+</div><!-- End Portfolio Section -->
+
+<!-- Footer Section -->
+<div id="footer" class="section">
+  <div id="social-media" class="row">
+    <div class="col-3"><a href="https://www.facebook.com/victoria.shin.585"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></div>
+    <div class="col-3"><a href="https://www.instagram.com/v._.v_shin/"><i class="fa fa-instagram" aria-hidden="true"></i></a></div>
+    <div class="col-3"><a href="https://www.linkedin.com/in/eunsook-victoria-shin-0314"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></div>
+    <div class="col-3"><a href="https://github.com/EunsookShin"><i class="fa fa-github" aria-hidden="true"></i></a></div>
+  </div>
+  <div id="copy-rights" class="row">
+    <p>© 2020 Eunsook (Victoria) Shin</p>
+  </div>
+</div><!-- End Footer Section -->
+
+<script src="https://kit.fontawesome.com/5826f004d7.js" crossorigin="anonymous"></script>
+</body>  
+
 
 </html>
