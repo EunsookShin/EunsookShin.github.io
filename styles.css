@@ -65,7 +65,6 @@ nav {
 }
 
 .navbar-brand {
-  padding: 2%;
   float: left;
 }
 #nav-icon {
@@ -188,7 +187,6 @@ nav {
 @media (min-width: 992px) {
   h1 {font-size: 400%;}
 	h2 {font-size: 18px;}
-
 	p {font-size: 18px;}
   .container-fluid {
     width: 90%;
