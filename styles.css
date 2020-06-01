@@ -23,6 +23,7 @@ h3 {
 }
 
 p {
+  font-size: 16px;
   width: 100%;
 }
 
@@ -33,7 +34,7 @@ p {
 
 #home {
   background: url("img/home-bg.jpg") repeat scroll right center/cover;
-  height: 70vh;
+  height: 65vh;
   width: 100%;
 }
 
@@ -64,6 +65,7 @@ nav {
 }
 
 .navbar-brand {
+  padding: 2%;
   float: left;
 }
 #nav-icon {
@@ -166,10 +168,6 @@ nav {
 }
 
 @media (min-width: 768px) {
-	.container-fluid {
-		width: 90%;
-	}
-  
   h1 {
     font-size: 350%;
   }
@@ -192,6 +190,9 @@ nav {
 	h2 {font-size: 18px;}
 
 	p {font-size: 18px;}
+  .container-fluid {
+    width: 90%;
+  }
   #home {
     height: 100vh;
   }
