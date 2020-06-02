@@ -1,13 +1,13 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 h1 {
   width: 100%;
   font-family: 'Poppins', sans-serif;
-  font-size: 250%;
+  font-size: 300%;
   font-weight: bolder;
 }
 
@@ -15,7 +15,7 @@ h2 {
   text-align: left;
   width: 100%;
   font-family: 'Poppins', sans-serif;
-  font-size: 2vw;
+  font-size: 20px;
 }
 
 h3 {
@@ -27,14 +27,14 @@ p {
   width: 100%;
 }
 
-#home a {
+#home a, #footer a {
   font-size: 20px;
   color: darkgrey;
 }
 
 #home {
-  background: url("img/home-bg.jpg") repeat scroll right center/cover;
-  height: 65vh;
+  background: url("img/home-bg-landscape.JPG") repeat scroll right center/cover;
+  height: 100vh;
   width: 100%;
 }
 
@@ -42,7 +42,7 @@ p {
   position: absolute;
   top: 10%;
   left: 5%;
-  width: 50%;
+  width: 70%;
   min-width: 300px;
 }
 
@@ -73,11 +73,11 @@ nav {
 .nav-item {
   padding-left: 10%;
   padding-right: 10%;
-	text-align: center;
+  text-align: center;
 }
 
 .section {
-	width: 100%;
+  width: 100%;
 }
 
 .container-fluid {
@@ -90,10 +90,10 @@ nav {
 
 .row {
   left: 0;
-	width: 100%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
-	justify-content: center;
+  justify-content: center;
 }
 
 #img-div {
@@ -108,7 +108,7 @@ nav {
 }
 
 #about-txt {
-	/*padding-top: 10%;*/
+  /*padding-top: 10%;*/
 }
 
 #services {
@@ -136,6 +136,10 @@ nav {
   border-radius: 5px;
 }
 
+.skill-col {
+  padding: 1%;
+}
+
 .thumbnail-img {
   width: 100%;
 }
@@ -148,8 +152,9 @@ nav {
 }
 
 #footer #social-media {
-  min-width: 300px;
-  width: 30%;
+  min-width: 200px;
+  max-width: 500px;
+  width: 30vw;
 }
 
 #footer #social-media .col-3 {
@@ -157,23 +162,52 @@ nav {
   text-align: center;
 }
 
-#footer a {
-  color: darkgrey;
-  font-size: 3vw;
-}
-
 .portfolio-thumbnail {
   padding: 1%;
 }
 
+@media (max-width: 576px) {
+  #home {
+    background: url("img/home-bg-portrait.JPG") repeat scroll right center/cover;
+    height: 100vh;
+    width: 100%;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #title-container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 10%;
+    left: 0;
+    width: 90%;
+  }
+
+  #title-container .row, #title-container h2, #title-container #social-media{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 @media (min-width: 768px) {
   h1 {
     font-size: 350%;
   }
+  #title-container {
+    position: absolute;
+    top: 10%;
+  }
   #home a {
     font-size: 25px;
   }
-
+  #about-img {
+    width: 100%;
+  }
+  .container-fluid {
+    width: 90%;
+  }
   #social-media {
     max-width: 200px;
   }
@@ -186,16 +220,10 @@ nav {
 }
 @media (min-width: 992px) {
   h1 {font-size: 400%;}
-	h2 {font-size: 18px;}
-	p {font-size: 18px;}
-  .container-fluid {
-    width: 90%;
-  }
+  h2 {font-size: 18px;}
+  p {font-size: 18px;}
   #home {
     height: 100vh;
-  }
-  #about-img {
-    width: 100%;
   }
   #title-container {
     position: absolute;
