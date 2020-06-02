@@ -166,7 +166,9 @@ nav {
   padding: 1%;
 }
 
-@media (max-width: 576px) {
+
+
+@media (max-width: 768px) { /*mobile version*/
   #home {
     background: url("img/home-bg-portrait.JPG") repeat scroll center center/cover;
     height: 100vh;
@@ -191,7 +193,12 @@ nav {
     margin-right: auto;
   }
 }
-@media (min-width: 768px) {
+
+@media (min-width: 576px) and (max-width: 768px) {
+
+}
+
+@media (min-width: 768px) { /*desktop/tablet landscape version*/
   h1 {
     font-size: 350%;
   }
@@ -218,7 +225,7 @@ nav {
     font-size: 30px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 992px) { /*bigger desktop version*/
   h1 {font-size: 400%;}
   h2 {font-size: 18px;}
   p {font-size: 18px;}
