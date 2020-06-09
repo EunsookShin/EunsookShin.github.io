@@ -24,6 +24,13 @@ h3 {
   padding-left: 1%;
 }
 
+h4 {
+  width: 100%;
+  font-size: 130%;
+  color: grey;
+  line-height: 1.5em;
+}
+
 p {
   font-size: 16px;
   width: 100%;
@@ -99,7 +106,7 @@ nav {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  justify-content: center;
+  justify-content: left;
 }
 
 #img-div {
@@ -109,12 +116,34 @@ nav {
 #skills, #footer{
   background-color: #f7f7f7;
 }
+
 #about-img {
-  width: 50%;
+  width: 65%;
 }
 
-#about-txt {
-  /*padding-top: 10%;*/
+.education-details li {
+  list-style-type: circle;
+  list-style-position: inside;
+}
+
+.accordion .btn:after {
+  font-family: 'FontAwesome';  
+  content: "\f107";
+  color: #4682B4;
+}
+
+.accordion .btn.collapsed:after {  
+  content: "\f105";
+  color: #4682B4;
+}
+
+.card-body {
+  position: relative;
+  left: 17px;
+  border-left: 1px solid lightgrey;
+  padding: 0;
+  padding-left: 25px;
+  padding-right: 17px;
 }
 
 #services {
@@ -146,6 +175,10 @@ nav {
   padding: 1%;
 }
 
+/* .skills-heading {
+  padding: 1%;
+} */
+
 .thumbnail-img {
   width: 100%;
 }
@@ -174,7 +207,7 @@ nav {
 
 
 
-@media (max-width: 992px) { /*mobile version*/
+@media (max-width: 768px) { /*mobile version*/
   #home {
     background: url("assets/img/home-bg-portrait.JPG") repeat scroll center center/cover;
     height: 100vh;
@@ -215,6 +248,9 @@ nav {
   #about-img {
     width: 100%;
   }
+  #about-txt {
+    padding-top: 1vw;
+  }
   .container-fluid {
     width: 90%;
   }
@@ -239,5 +275,8 @@ nav {
     position: absolute;
     top: 15%;
     left: 10%;
+  }
+  #about-txt {
+    padding-top: 2vw;
   }
 }
